@@ -60,23 +60,3 @@ if __name__ == '__main__':
 
         with open("../data/loeg_%(id)05d.xml" % content, "w") as text_file:
             text_file.write(journal)
-
-
-
-
-
-# for id in ids:
-#     data = {'id': id, 'sex': 'M'}
-#
-#     diagnosis = random.choice(disesases.keys())
-#
-#     symp = [random.choice(disesases[diagnosis]) for _ in range(2)]
-#
-#     data['text'] = "Patienten har " + random.choice(sentence_lists.frame) % tuple(symp)
-#     data['author'] = random.choice(doctors)
-#     data['diagnosis'] = diagnosis
-#     data['extra'] = ''
-#
-#     print pattern % data
-
-
