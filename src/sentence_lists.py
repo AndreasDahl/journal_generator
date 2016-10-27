@@ -3,16 +3,6 @@
 
 import random
 
-severity = ['mild', 'slem', 'udbredt', 'voldsomt']
-
-aplifier = ['stor ', 'lille ', 'gammel ', 'ung ', 'frisk ', 'frejdig ', '', '', '']
-
-adjective = ['stodder', 'klaphat']
-
-frames = ["""%s med %s og ubehag""",
-          """%s og har haft %s de sidste to døgn""",
-          ]
-
 descriptor = [  # 1 wildcard
     'har %s',
     'har haft %s',
