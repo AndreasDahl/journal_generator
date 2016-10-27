@@ -4,5 +4,8 @@
 # JetBrains IDEA
 .idea
 
+# Python
+*.py[cod]
+
 # Project specific
 data/
